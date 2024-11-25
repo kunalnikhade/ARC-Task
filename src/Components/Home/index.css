@@ -1,0 +1,56 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.m-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 50px;
+    margin: 20px;
+}
+
+.addPassForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 50px;
+    background-color: white;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.form input, .form button {
+    padding: 10px;
+    margin: 5px;
+}
+
+.form button {
+    cursor: pointer;
+}
+.addUsersDetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
